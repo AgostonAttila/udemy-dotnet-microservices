@@ -1,0 +1,28 @@
+Vs Code or Studio
+Docker
+MongoDb
+RabbitMQ
+Postman 
+Fiddler
+Curl
+
+
+dotnet new sln
+
+3 webapi
+1 classlib
+
+dotnet add Actio.Api/Actio.Api.csproj reference Actio.Common/Actio.Common.csproj
+dotnet add Actio.Services.Identity/Actio.Services.Identity.csproj reference Actio.Common/Actio.Common.csproj
+dotnet add Actio.Services.Activities/Actio.Services.Activities.csproj reference Actio.Common/Actio.Common.csproj
+
+dotnet sln add src/Actio.Api/Actio.Api.csproj
+dotnet sln add src/Actio.Services.Activities/Actio.Services.Activities.csproj
+dotnet sln add src/Actio.Services.Identity/Actio.Services.Identity.csproj
+dotnet sln add src/Actio.Common/Actio.Common.csproj
+
+
+https://www.rabbitmq.com/
+https://www.cloudamqp.com/
+
+docker run -p 5672:5672 rabbitmq
