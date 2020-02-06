@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {}
+    "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
+    "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectUniqueName": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
         "projectName": "Actio.Api",
-        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
+        "projectPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\Actio.Api.csproj",
         "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\obj\\",
+        "outputPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
-                "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
+              "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+                "projectPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+    "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectUniqueName": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "projectName": "Actio.Common",
-        "projectPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
+        "projectPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\Actio.Common.csproj",
         "packagesPath": "C:\\Users\\atesz\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\obj\\",
+        "outputPath": "d:\\Programming\\Courses\\Course Repos\\UDEMY .Net Microservices\\udemy-dotnet-microservices\\Actio\\src\\Actio.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -121,7 +121,7 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.4.4, )"
+              "version": "[2.10.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

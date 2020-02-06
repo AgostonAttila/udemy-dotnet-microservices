@@ -26,3 +26,38 @@ https://www.rabbitmq.com/
 https://www.cloudamqp.com/
 
 docker run -p 5672:5672 rabbitmq
+
+RawRabbitMQ
+
+ "rabbitmq": {
+    "Username": "guest",
+    "Password": "guest",
+    "VirtualHost": "/",
+    "Port": 5672,
+    "Hostnames": ["localhost"],
+    "RequestTimeout": "00:00:10",
+    "PublishConfirmTimeout": "00:00:01",
+    "RecoveryInterval": "00:00:10",
+    "PersistentDeliveryMode": true,
+    "AutoCloseConnection": true,
+    "AutomaticRecovery": true,
+    "TopologyRecovery": true,
+    "Exchange": {
+      "Durable": true,
+      "AutoDelete": true,
+      "Type": "Topic"
+    },
+    "Queue": {
+      "AutoDelete": true,
+      "Durable": true,
+      "Exclusive": true
+    }
+
+Mongodb 27017
+RoboMongo Robo3T
+
+dotnet add package MongoDb.Driver
+
+"mongo": {
+    "connectionString": "mongodb://user:password@localhost:27017"
+  },
